@@ -137,6 +137,8 @@ body {
     padding-bottom: 25px;
   }
 
+  /* Work Grid */
+
   .work-grid-container {
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -182,6 +184,9 @@ body {
     color: #f8f8ff;
     font-size: 24px;
   }  
+  .grid-text-float {
+    float: right;
+  }
   
 
 /* contact form  */  
@@ -219,8 +224,4 @@ label {
   text-shadow: 3px 3px 0px rgba(190, 190, 190, 0.5);
 }
 
-
-
-
-  /* Hero Image CSS */
 
