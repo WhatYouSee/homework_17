@@ -13,7 +13,7 @@
 <body>
 <header>
     <div class="topnav">
-        <a href="index.html">Home</a>
+        <a href="index.html">C.Gray</a>
     </div>
     <div class="topnavright">    
         <a href="work.html">Work</a>
@@ -23,14 +23,23 @@
 </header>
 
 <section>
-    <div class="about">
-        <img src="images/CG_LogoWeb.svg" height="300px" width="200px">
-        <h1>Contact</h1>
-        <p>......</p>
-        <p>.....</p>
-        <p>.....</p>
-    </div>
-
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="username">Name</label>
+          <input type="text" id="yname" name="username" placeholder="Required">
+      
+          <label for="mail">E-mail</label>
+          <input type="text" id="mail" name="mail" placeholder="Required">
+      
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject">
+      
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:150px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+      </div>
 </section>
 
 
